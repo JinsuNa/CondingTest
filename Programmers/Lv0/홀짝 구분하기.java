@@ -25,3 +25,17 @@ public class Solution {
         else System.out.println(n + " is odd");
     }
 }
+
+// 근데 삼항연산자를 이용하면 한줄이면 된다.... ㅋㅋ
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        System.out.print(n + " is "+(n % 2 == 0 ? "even" : "odd"));
+
+
+    }
+}
