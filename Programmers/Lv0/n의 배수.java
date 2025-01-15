@@ -13,3 +13,13 @@ class Solution {
 }
 
 // answer을 sum으로 나눌 때 나머지가 0이면 return을 1하고 나머지 경우에는 0을 return 하면 된다.
+
+
+//삼항연산자를 사용한 풀이방법
+
+class Solution {
+    public int solution(int num, int n) {
+        int answer = num % n == 0 ? 1 : 0;
+        return answer;
+    }
+}
