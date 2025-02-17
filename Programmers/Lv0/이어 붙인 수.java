@@ -37,3 +37,22 @@ class Solution {
 //     StringBuilder 변환 함수 추가 끝
     
 }
+
+
+
+
+// 위 코드는 너무 가독성이 떨어져 다른 방식으로 접근하였다.(Integer.parseInt() 로 변경하는 방식)
+    class Solution {
+    public int solution(int[] num_list) {
+        int answer = 0;
+        String even = "";
+        String odd = "";
+        
+        for(int i : num_list){
+            if(i%2==0) even+= i;
+                else odd+=i;
+        }
+        answer = Integer.parseInt(even)+Integer.parseInt(odd);
+        return answer;
+    }
+}
