@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Arrays;
 
-
+//어려움
 class Solution {
     public int solution(int[] num_list) {
         
